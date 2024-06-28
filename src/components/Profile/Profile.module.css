@@ -1,0 +1,6 @@
+.propertyList {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 24px;
+}

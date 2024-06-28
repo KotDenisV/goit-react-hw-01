@@ -1,12 +1,13 @@
-import './App.css'
+import Profile from "./components/Profile/Profile"
+import userData from './userData.json';
 
 function App() {
   
   return (
     <>
-      <h1>Denis Kot</h1>
+      <Profile userData={userData} />
     </>
-  )
+  );
 }
 
 export default App
