@@ -4,7 +4,7 @@ import s from './Profile.module.css';
 const Profile = ({ userData: { username, tag, location, avatar, stats: {followers, views, likes} } }) => {
     return (
 <div className={s.container}>
-  <div>
+  <div className={s.wrapper}>
     <img
       src={avatar}
       alt="User avatar"
