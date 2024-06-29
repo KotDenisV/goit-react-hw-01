@@ -16,15 +16,15 @@ const Profile = ({ userData: { username, tag, location, avatar, stats: {follower
   </div>
 
   <ul className={s.propertyList}>
-    <li className={s.ProprtyListItem}>
+    <li className={s.proprtyListItem}>
       <span className={s.itemValue}>Followers</span>
       <span className={s.value}>{followers}</span>
     </li>
-    <li className={s.ProprtyListItem}>
+    <li className={s.proprtyListItem}>
       <span className={s.itemValue}>Views</span>
       <span className={s.value}>{views}</span>
     </li>
-    <li className={s.ProprtyListItem}>
+    <li className={s.proprtyListItem}>
       <span className={s.itemValue}>Likes</span>
       <span className={s.value}>{likes}</span>
     </li>
