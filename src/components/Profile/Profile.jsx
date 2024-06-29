@@ -6,6 +6,7 @@ const Profile = ({ userData: { username, tag, location, avatar, stats: {follower
 <div className={s.container}>
   <div className={s.wrapper}>
     <img
+      className={s.avatar}     
       src={avatar}
       alt="User avatar"
     />

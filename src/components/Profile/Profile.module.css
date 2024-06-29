@@ -8,20 +8,33 @@
 
 .wrapper {
   width: 100%;
-  border-bottom: 1px solid #808080;
+  /* border-bottom: 1px solid #808080; */
+}
+
+.avatar {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 .title {
+  margin-top: 20px;
   font-weight: bold;
   text-align: center;
 }
 
 .text {
+  margin-top: 15px;
   text-align: center;
   color: #808080;
 }
 
 .propertyList {
+  border-top: 1px solid #808080;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -31,8 +44,14 @@
 .ProprtyListItem {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.itemValue {
+  text-align: center;
 }
 
 .value {
   font-weight: bold;
+  text-align: center;
 }
